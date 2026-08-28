@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import ColorForm from '../components/ColorForm';
+import Timer from '../components/Timer';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <h1>Color Game</h1>
       <ColorForm/>
+      <Timer/>
     </>
   )
 }
